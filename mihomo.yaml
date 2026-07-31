@@ -31,23 +31,35 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "📢 https://t.me/irnova_proxy", server: 192.0.2.1, port: 443, type: vmess, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, alterId: 0, cipher: auto, tls: true, servername: "nova-pixel-spark-145e.aliahmadhosseini5.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "nova-pixel-spark-145e.aliahmadhosseini5.workers.dev"}}, udp: false}
   - {name: "📊 0.00GB / 9999GB (0%)  |  📅 2099-01-01", server: 192.0.2.1, port: 443, type: vmess, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, alterId: 0, cipher: auto, tls: true, servername: "nova-pixel-spark-145e.aliahmadhosseini5.workers.dev", network: ws, ws-opts: {path: "/?fake=1", headers: {Host: "nova-pixel-spark-145e.aliahmadhosseini5.workers.dev"}}, udp: false}
-  - {name: "سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]", server: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]", server: 104.17.209.234, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]", server: 198.41.223.175, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]", server: 104.16.249.185, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]", server: 162.159.38.60, port: 2053, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]", server: 104.26.8.90, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]", server: 8.35.211.250, port: 8443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]", server: 8.39.125.221, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]", server: 91.193.59.154, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]", server: 104.17.112.56, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]", server: 198.41.223.25, port: 2053, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]", server: 104.16.153.100, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]", server: 104.17.118.107, port: 2096, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]", server: 104.17.113.113, port: 2096, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]", server: 198.41.223.81, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]", server: 172.66.0.2, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
-  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]", server: 104.17.17.190, port: 2096, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: android, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - name: "Nova-WARP"
+    type: wireguard
+    server: engage.cloudflareclient.com
+    port: 2408
+    ip: 172.16.0.2/32
+    ipv6: "2606:4700:110:8b14:433e:e7ab:3271:da71/128"
+    private-key: "72VgZu8ba4O8zu5973sdM8ewFfzofdtBmdq7ThovUpE="
+    public-key: "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+    reserved: "vvdJ"
+    udp: true
+    mtu: 1280
+    amnezia-wg-option: {jc: 4, jmin: 40, jmax: 70}
+  - {name: "سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]", server: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]", server: 104.19.53.242, port: 8443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]", server: 104.17.147.11, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]", server: 188.164.248.89, port: 443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]", server: 104.17.174.2, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]", server: 104.17.165.137, port: 2053, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]", server: 104.26.3.241, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]", server: 198.41.223.102, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]", server: 104.17.18.171, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]", server: 104.19.35.163, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]", server: 104.17.63.76, port: 8443, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]", server: 104.19.151.251, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]", server: 173.245.58.148, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]", server: 104.17.16.108, port: 2083, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]", server: 104.17.179.114, port: 2053, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]", server: 104.19.148.130, port: 2096, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
+  - {name: "سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]", server: 172.67.68.61, port: 2087, type: vless, uuid: 80bac59f-d829-47e7-844d-816469fa3e25, tls: true, skip-cert-verify: false, servername: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev, client-fingerprint: edge, network: ws, ws-opts: {path: /, headers: {Host: nova-pixel-spark-145e.aliahmadhosseini5.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -59,22 +71,22 @@ proxy-groups:
       - 🔮 负载均衡
       - DIRECT
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -82,44 +94,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
   - name: 🔮 负载均衡
     type: load-balance
     strategy: consistent-hashing
@@ -127,22 +139,22 @@ proxy-groups:
     interval: 180
     proxies:
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,22 +181,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
   - name: ☁️ CloudFlareCDN
     type: select
     proxies:
@@ -197,22 +209,22 @@ proxy-groups:
       - 🔯 故障转移
       - 🔮 负载均衡
       - سرویس رایگان نوا @irnova_proxy nova-pixel-spark-145e.aliahmadhosseini5.workers.dev:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.209.234:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.175:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.249.185:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 162.159.38.60:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.26.8.90:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.35.211.250:8443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 8.39.125.221:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 91.193.59.154:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.112.56:443 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.25:2053 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.16.153.100:2083 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.118.107:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.113.113:2096 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 198.41.223.81:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 172.66.0.2:2087 [VLESS]
-      - سرویس رایگان نوا @irnova_proxy 104.17.17.190:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.53.242:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.147.11:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 188.164.248.89:443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.174.2:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.165.137:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.26.3.241:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 198.41.223.102:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.18.171:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.35.163:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.63.76:8443 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.151.251:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 173.245.58.148:2087 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.16.108:2083 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.17.179.114:2053 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 104.19.148.130:2096 [VLESS]
+      - سرویس رایگان نوا @irnova_proxy 172.67.68.61:2087 [VLESS]
 rules:
 # IRANIAN DIRECT RULES
   - DOMAIN-SUFFIX,ir,DIRECT
@@ -6640,6 +6652,106 @@ rules:
   - DOMAIN,yz8yn0nr.td3wc.adobestats.io,🛑 全球拦截
   - DOMAIN,zpbpfbu6cpq.td3wc.adobestats.io,🛑 全球拦截
   - DOMAIN,zxreowyzyof.td3wc.adobestats.io,🛑 全球拦截
+  - DOMAIN,5llohiaf7b8b.61y77.adobestats.io,🛑 全球拦截
+  - DOMAIN,ubhkyiqkbp.xwk4b.adobestats.io,🛑 全球拦截
+  - DOMAIN,g7os4a6l.xwk4b.adobestats.io,🛑 全球拦截
+  - DOMAIN,y6e93e0muejm.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,1hac93w4ciq.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,01abhoynm.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,0ooc20j9s.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,1gby18snre.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,1oz5hcjo.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,290rf2vhmu.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,30q933u7wy9r.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,36ozobot30z.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,3kuc4wqjj.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,3o85zdgjsx.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,3ome07ychh.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,42ory1yh.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,4f7jz1g4.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,4iulukcwiegq.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,4mat7xp2xg5g.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,50kpnscqsj.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,5im6bd893.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,6il8a3gzd.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,7phwb6gtdcht.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,7vm0xgjs0.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,7xapbz5h2.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,8i07lr2rq.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,8iub6mx157.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,9cs6rc6276b.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,9o0jk46qf0.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,9wqj0iv0yf.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,aalb8k11in.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,adngtkuc6b5.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,aed8sg7yz.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,annjtcryg62b.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,by87c7ec.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,c4yb8tz6izw.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,c5tyuqjsd.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,chnhlmohuv.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,cvhlqpka3s.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,d12u58m1b.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,d335krk4.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,d9ed5hg1qkl.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,dhaxfwpz4bo0.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,dkz7ipdfyh.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,dpej8fcn25t8.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,dr8x5omtss.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,eckbuc2d721m.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,egpmu3m9ouie.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,fpqy3zb8.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,fpr3nxsr.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,fqwuxxkmqg.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,g8b5rgjre.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,gsbaswsx.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,hsemeynpq0zk.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,i86482u77.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,ieqa4ytluh1i.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,izktsj8t.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,jln11nvsqd.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,kyjvuf68in.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,l04lq23zzw6.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,lckizcs8o.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,lnqubgnso.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,lnrbgca6tkj.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,maxx5ddw4.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,oto8hz22l.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,ouf9hcf0jt.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,pt4vvg35di.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,q17pfsrw.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,q6tdlirko.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,qhs2v26k5.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,qqbp8gj8il.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,qsxuikk100.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,qw4i1um9em.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,rbwbrei60xwp.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,rpdipj5zz.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,rphyzefeaz.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,s9y2hfs9.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,sr5awkb8ue8q.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,st0bx76jdf4x.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,tlb4is2tf.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,u29gfjmwa0.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,u3qf7ehi4gp.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,ut5nd2k6aeo5.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,utxfcphncs8t.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,vcd913y3.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,w52otih99rc9.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,waqbx5t4lv.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,wdrm00gf1a.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,wi8m746hdbn.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,wntv058amun.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,wrrawpzaso.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,wuielahst2wf.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,x1gi903hr19.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,xr02q7ltcx6l.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,xu52f3tbxfz.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,xwu5z1zb09.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,yfm7nstt.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,ylvb9g7k5n.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,zcq3wsd5lnx.nr94p.adobestats.io,🛑 全球拦截
+  - DOMAIN,zkw1mdmx.nr94p.adobestats.io,🛑 全球拦截
   - DOMAIN-SUFFIX,265.com,🚀 节点选择
   - DOMAIN-SUFFIX,2mdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,alt1-mtalk.google.com,🚀 节点选择
@@ -9473,4 +9585,4 @@ rules:
   - IP-CIDR,198.41.252.0/23,☁️ CloudFlareCDN,no-resolve
   - IP-CIDR,185.122.0.0/24,☁️ CloudFlareCDN,no-resolve
   - GEOIP,CN,🎯 全球直连
-  - MATCH,🐟 漏网之鱼
+  - MATCH,Nova-WARP
